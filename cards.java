@@ -1,4 +1,4 @@
-package allin;
+package sample;
 
 import javafx.scene.image.Image;
 
@@ -52,7 +52,7 @@ public class cards {
             suit="clubs";
             cardname="7";
             facevalue=0;
-            //image= new Image("7 of clubs.png");
+            image= new Image("7 of clubs.png");
             precendence=8;
         }
 
@@ -61,7 +61,7 @@ public class cards {
             suit="clubs";
             cardname="8";
             facevalue=0;
-            //image= new Image("8 of clubs.png");
+            image= new Image("8 of clubs.png");
             precendence=7;
         }
 
@@ -70,7 +70,7 @@ public class cards {
             suit="clubs";
             cardname="9";
             facevalue=2;
-            //image= new Image("9 of clubs.png");
+            image= new Image("9 of clubs.png");
             precendence=2;
         }
 
@@ -79,7 +79,7 @@ public class cards {
             suit="clubs";
             cardname="10";
             facevalue=1;
-            //image= new Image("10 of clubs.png");
+            image= new Image("10 of clubs.png");
             precendence=4;
         }
 
@@ -89,7 +89,8 @@ public class cards {
             cardname="ace";
             facevalue=1;
             //Image= ImageIO.read(new File("Aceofclubs.jpg"));
-            //image= new Image("ace of clubs.png");
+            image= new Image("ace of clubs.png");
+
             precendence=3;
         }
 
@@ -99,7 +100,7 @@ public class cards {
             cardname="jack";
             facevalue=3;
             //Image= ImageIO.read(new File("Jackofclubs.jpg"));
-            //image= new Image("jack of clubs.png");
+            image= new Image("jack of clubs.png");
 
             precendence=1;
         }
@@ -110,7 +111,7 @@ public class cards {
             cardname="king";
             facevalue=0;
             //Image= ImageIO.read(new File("Kingofclubs.jpg"));
-            //image= new Image("king of clubs.png");
+            image= new Image("king of clubs.png");
 
             precendence=5;
         }
@@ -121,7 +122,7 @@ public class cards {
             cardname="queen";
             facevalue=0;
             //Image= ImageIO.read(new File("Queenofclubs.jpg"));
-            //image= new Image("queen of clubs.png");
+            image= new Image("queen of clubs.png");
 
             precendence=6;
         }
@@ -132,7 +133,7 @@ public class cards {
             cardname="2";
             facevalue=0;
            //Image= ImageIO.read(new File("trumpofclubs.jpg"));
-            //image= new Image("2 of clubs.png");
+            image= new Image("2 of clubs.png");
 
             precendence=0;
         }
@@ -143,7 +144,7 @@ public class cards {
             cardname="7";
             facevalue=0;
             //Image= ImageIO.read(new File("7ofspade.jpg"));
-            //image= new Image("7 of spades.png");
+            image= new Image("7 of spades.png");
 
             precendence=16;
         }
@@ -154,7 +155,7 @@ public class cards {
             cardname="8";
             facevalue=0;
            // Image= ImageIO.read(new File("8ofspade.jpg"));
-            //image= new Image("8 of spades.png");
+            image= new Image("8 of spades.png");
 
             precendence=15;
         }
@@ -165,7 +166,7 @@ public class cards {
             cardname="9";
             facevalue=2;
             //Image= ImageIO.read(new File("9ofspade.jpg"));
-            //image= new Image("9 of spades.png");
+            image= new Image("9 of spades.png");
 
             precendence=10;
         }
@@ -176,7 +177,7 @@ public class cards {
             cardname="10";
             facevalue=1;
             //Image= ImageIO.read(new File("10ofspade.jpg"));
-            //image= new Image("10 of spades.png");
+            image= new Image("10 of spades.png");
 
             precendence=12;
         }
@@ -187,7 +188,7 @@ public class cards {
             cardname="ace";
             facevalue=1;
             //Image= ImageIO.read(new File("Aceofspade.jpg"));
-            //image= new Image("ace of spades.png");
+            image= new Image("ace of spades.png");
 
             precendence=11;
         }
@@ -198,7 +199,7 @@ public class cards {
             cardname="jack";
             facevalue=3;
             //Image= ImageIO.read(new File("Jackofspade.jpg"));
-            //image= new Image("jack of spades.png");
+            image= new Image("jack of spades.png");
 
             precendence=9;
         }
@@ -209,7 +210,8 @@ public class cards {
             cardname="king";
             facevalue=0;
             //Image= ImageIO.read(new File("Kingofspade.jpg"));
-            //image= new Image("king of spades.png");
+            image= new Image("king of spades.png");
+
             precendence=13;
         }
 
@@ -219,7 +221,7 @@ public class cards {
             cardname="queen";
             facevalue=0;
             //Image= ImageIO.read(new File("Queenofspade.jpg"));
-            //image= new Image("queen of spades.png");
+            image= new Image("queen of spades.png");
 
             precendence=14;
         }
@@ -230,7 +232,7 @@ public class cards {
             cardname="2";
             facevalue=0;
             //Image= ImageIO.read(new File("trumpofspade.jpg"));
-            //image= new Image("2 of spades.png");
+            image= new Image("2 of spades.png");
 
             precendence=0;
         }
@@ -241,7 +243,7 @@ public class cards {
             cardname="7";
             facevalue=0;
             //Image= ImageIO.read(new File("7ofdiamond.jpg"));
-            //image= new Image("7 of diamonds.png");
+            image= new Image("7 of diamonds.png");
 
             precendence=24;
         }
@@ -252,7 +254,7 @@ public class cards {
             cardname="8";
             facevalue=0;
             //Image= ImageIO.read(new File("8ofdiamond.jpg"));
-            //image= new Image("8 of diamonds.png");
+            image= new Image("8 of diamonds.png");
 
             precendence=23;
         }
@@ -263,7 +265,7 @@ public class cards {
             cardname="9";
             facevalue=2;
             //Image= ImageIO.read(new File("9ofdiamond.jpg"));
-            //image= new Image("9 of diamonds.png");
+            image= new Image("9 of diamonds.png");
 
             precendence=18;
         }
@@ -274,7 +276,8 @@ public class cards {
             cardname="10";
             facevalue=1;
             //Image= ImageIO.read(new File("10ofdiamond.jpg"));
-            //image= new Image("10 of diamonds.png");
+            image= new Image("10 of diamonds.png");
+
             precendence=20;
         }
 
@@ -284,7 +287,7 @@ public class cards {
             cardname="ace";
             facevalue=1;
             //Image= ImageIO.read(new File("Aceofdiamond.jpg"));
-            //image= new Image("ace of diamonds.png");
+            image= new Image("ace of diamonds.png");
 
             precendence=19;
         }
@@ -295,7 +298,7 @@ public class cards {
             cardname="jack";
             facevalue=3;
             //Image= ImageIO.read(new File("Jackofdiamond.jpg"));
-            //image= new Image("jack of diamonds.png");
+            image= new Image("jack of diamonds.png");
 
             precendence=17;
         }
@@ -306,7 +309,7 @@ public class cards {
             cardname="king";
             facevalue=0;
             //Image= ImageIO.read(new File("Kingofdiamond.jpg"));
-            //image= new Image("king of diamonds.png");
+            image= new Image("king of diamonds.png");
 
             precendence=21;
         }
@@ -317,7 +320,7 @@ public class cards {
             cardname="queen";
             facevalue=0;
             //Image= ImageIO.read(new File("Queenofdiamond.jpg"));
-            //image= new Image("queen of diamonds.png");
+            image= new Image("queen of diamonds.png");
 
             precendence=22;
         }
@@ -328,7 +331,7 @@ public class cards {
             cardname="2";
             facevalue=0;
             //Image= ImageIO.read(new File("trumpofdiamond.jpg"));
-            //image= new Image("2 of diamonds.png");
+            image= new Image("2 of diamonds.png");
 
             precendence=0;
         }
@@ -340,7 +343,7 @@ public class cards {
             cardname="7";
             facevalue=0;
             //Image= ImageIO.read(new File("7ofhearts.jpg"));
-            //image= new Image("7 of hearts.png");
+            image= new Image("7 of hearts.png");
 
             precendence=32;
         }
@@ -351,7 +354,7 @@ public class cards {
             cardname="8";
             facevalue=0;
             //Image= ImageIO.read(new File("8ofhearts.jpg"));
-            //image= new Image("8 of hearts.png");
+            image= new Image("8 of hearts.png");
 
             precendence=31;
         }
@@ -362,7 +365,7 @@ public class cards {
             cardname="9";
             facevalue=2;
             //Image= ImageIO.read(new File("9ofhearts.jpg"));
-            //image= new Image("9 of hearts.png");
+            image= new Image("9 of hearts.png");
 
             precendence=26;
         }
@@ -373,7 +376,7 @@ public class cards {
             cardname="10";
             facevalue=1;
             //Image= ImageIO.read(new File("10ofhearts.jpg"));
-            //image= new Image("10 of hearts.png");
+            image= new Image("10 of hearts.png");
 
             precendence=28;
         }
@@ -384,10 +387,11 @@ public class cards {
             cardname="ace";
             facevalue=1;
             //Image= ImageIO.read(new File("Aceofhearts.jpg"));
-            //image= new Image("ace of hearts.png");
+            image= new Image("ace of hearts.png");
 
             precendence=27;
         }
+
 
         else if(n==27)
         {
@@ -395,7 +399,7 @@ public class cards {
             cardname="jack";
             facevalue=3;
             //Image= ImageIO.read(new File("Jackofhearts.jpg"));
-            //image= new Image("jack of hearts.png");
+            image= new Image("jack of hearts.png");
 
             precendence=24;
         }
@@ -406,7 +410,7 @@ public class cards {
             cardname="king";
             facevalue=0;
             //Image= ImageIO.read(new File("Kingofhearts.jpg"));
-            //image= new Image("king of hearts.png");
+            image= new Image("king of hearts.png");
 
             precendence=29;
         }
@@ -417,7 +421,7 @@ public class cards {
             cardname="queen";
             facevalue=0;
             //Image= ImageIO.read(new File("Queenofhearts.jpg"));
-            //image= new Image("queen of hearts.png");
+            image= new Image("queen of hearts.png");
 
             precendence=30;
         }
@@ -428,7 +432,7 @@ public class cards {
             cardname="2";
             facevalue=0;
             //Image= ImageIO.read(new File("trumpofhearts.jpg"));
-            //image= new Image("2 of hearts.png");
+            image= new Image("2 of hearts.png");
 
             precendence=0;
         }

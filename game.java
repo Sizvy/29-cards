@@ -1,4 +1,4 @@
-package allin;
+package sample;
 
 import java.io.Serializable;
 import java.util.Random;
@@ -22,7 +22,7 @@ public class game implements Serializable {
         cardsondeck = new int[32];
         for (int i = 0; i < 32; i++) {
             cardsondeck[i] = i + 1;
-            //System.out.println(cardsondeck[i]);
+            System.out.println(cardsondeck[i]);
         }
 
         shuffleArray(cardsondeck);
@@ -43,11 +43,14 @@ public class game implements Serializable {
     }
 
     public void distributecards() {
+
         for(int i=0;i<4;i++)
         {
             for(int j=0;j<8;j++) {
-                gameplayer[i].hand[j] = cardsondeck[8*i +j];
+                gameplayer[i].hand[j] = cardsondeck[4*i +j];
             }
         }
+
     }
+
 }
